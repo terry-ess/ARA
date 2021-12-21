@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\Depository\THE_Solution\Development\Robots\InterbotixWidowX-250\ARA\VisualUI\bin\Debug\pvserver\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenTK.OpenAL" Version="4.6.4" />
+    <PackageReference Include="Porcupine" Version="2.0.1" />
+  </ItemGroup>
+
+</Project>

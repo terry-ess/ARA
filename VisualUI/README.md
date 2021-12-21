@@ -1,0 +1,8 @@
+﻿# Visual User Interface
+The GUI used in this implementation is just the quickest and easiest way to bring the code together.  It does not represent how real applications are likely to be implemented.  I would expect minimal "local" interfacing beyond verbal communication and possible hand signals.  The only exception would be a prominent "button" for emergency shutdown that would be a hardware switch.  So the control application would be a headless console application.  There would probably need to be an remote administrative interface that would support domain management (e.g. what domains are loaded on the robot for use), software updates, diagnostics etc.
+
+The initial tab provides the means to start the application.  This initializes and checks each hardware component and AI server.  A successful start up is required prior to doing anything else.
+
+The "Manual" tab provides the means to check the operation of the primary hardware components.  It was also used to choreograph complex moves, etc.
+
+The "Autonomous" tab allows the user to select a domain for execution either verbally ("computer, run" plus the domain name) or by clicking the domains button.  Since this implementation uses low accuracy RC servos for the camera's pan and tilt, the initial code for the tab also provides automatic camera calibration.  For convenience this uses the [dynamic work assists workspace definition](../domains/DynamicWorkAssist/README.md). A "calibration marker" that is at point (0,0,9 in.) in the workspace and a height scan of the entire workspace is used to determine corrections to any RC mis-positioning.

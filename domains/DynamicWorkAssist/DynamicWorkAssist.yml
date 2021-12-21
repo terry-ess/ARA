@@ -1,0 +1,73 @@
+context:
+  expressions:
+    captureImages:
+      - shoot
+    saveImages:
+      - save
+    done:
+      - scenario done
+    home:
+      - home
+    park:
+      - park
+    openGripper:
+      - open gripper
+    closeGripper:
+      - close gripper
+    moveArm:
+      - move $fbdirect:dir
+      - move $rldirect:dir2
+      - move $uddirect:dir3
+    whatParts:
+      - what parts do you see
+    positionArm:
+      - position
+    takeThis:
+      - take this
+    repeatLast:
+      - "[again,repeat,more]"
+    rotateWrist:
+      - rotate wrist $rldirect:dir
+    moveWrist:
+      - wrist $uddirect:dir
+    pnp:
+      - "[put,place] (a,the) $part:part in the $container:box"
+      - "[put,place] (the) $parts:parts in the $container:box"
+    place:
+      - "[put, place] that in the $container:box"
+    pick:
+      - "[get, pick] (a,the) $part:part"
+    giveMe:
+      - give me (a,the) $part:part
+      - give me that
+    negative:
+      - "[no,negative]"
+    affirmative:
+      - "[yes,okay,affirmative]"
+    manualMode:
+      - manual mode
+    manualDone:
+      - manual done
+    stop:
+      - stop
+    whatContainers:
+      - what containers do you see
+  slots:
+    part:
+      - end block
+      - shaft
+    parts:
+      - end blocks
+      - shafts
+    container:
+      - red box
+      - blue box
+    uddirect:
+      - up
+      - down
+    rldirect:
+      - right
+      - left
+    fbdirect:
+      - forward
+      - backward
