@@ -10,4 +10,4 @@ Supported commands:
 - Shutdown - exit
 - Run an inference -  model name, full path to image
 
-Models used in this application are based on TensorFlow's [DeepLab v3+ pre-trained mobilenet__v2 model](http://download.tensorflow.org/models/deeplabv3_mnv2_pascal_train_aug_2018_01_29.tar.gz). Separate models were trained for boxes, box tops, shafts and end blocks using transfer learning.  The trained models are included in the software image you can download [here](http://www.silver-bullet-technology.com/ara.zip).
+Models used in this application are based on TensorFlow's [DeepLab v3+ pre-trained mobilenet__v2 model](http://download.tensorflow.org/models/deeplabv3_mnv2_pascal_train_aug_2018_01_29.tar.gz). Separate models were trained for boxes, box tops, shafts and end blocks using transfer learning.  The trained models are included in the software image you can download [here](https://1drv.ms/u/s!Akd6rkUaBWr4gTQub8I82e7nirgK?e=sacdyS).

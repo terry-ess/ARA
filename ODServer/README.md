@@ -20,7 +20,7 @@ Models used in this application:
 6. Hand: [based on ssd_mobilenet_v1_fpn](http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_fpn_shared_box_predictor_640x640_coco14_sync_2018_07_03.tar.gz)
 7. Part in hand: [based on ssd_mobilenet_v1](http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_2018_01_28.tar.gz)
 
-The trained models are included in the software image you can download [here](http://www.silver-bullet-technology.com/ara.zip).
+The trained models are included in the software image you can download [here](https://1drv.ms/u/s!Akd6rkUaBWr4gTQub8I82e7nirgK?e=sacdyS).
 
 Model selection was determined using trial and error to find the best trade off between accuracy and performance.  Starting with the fastest and least accurate model, ssd_mobilenet_v1, train and check the results.  If accuracy was not sufficient try the next "better" model (ssd_mobilenet_v1_fpn, ssd_resnet50_v1_fpn).  In many cases this also required a multi-level approach:
 

@@ -23,7 +23,7 @@ The software assumes the following file organization scheme when deployed:
 
 ![Ara](Filestructure.jpg)
 
-You can download a complete software image, which includes all the trained models, databases etc., from [here](http://www.silver-bullet-technology.com/ara.zip)
+You can download a complete software image, which includes all the trained models, databases etc., from [here](https://1drv.ms/u/s!Akd6rkUaBWr4gTQub8I82e7nirgK?e=sacdyS)
 
 ## Conclusions
 The key conclusions of the experiment are summarized below:
