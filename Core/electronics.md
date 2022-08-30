@@ -2,7 +2,7 @@
 
 The robot's primary hardware is composed of:
 
-1. [Interbotix WindowX-250 robotic arm](https://www.trossenrobotics.com/widowx-250-robot-arm.aspx)
+1. [Interbotix WidowX-250 robotic arm](https://www.trossenrobotics.com/widowx-250-robot-arm.aspx)
 2. [Intel D415 Depth Camera](https://www.intelrealsense.com/depth-camera-d415/)
 3. [SSC-32U servo controller](http://www.lynxmotion.com/p-1032-ssc-32u-usb-servo-controller.aspx)
 4. [(2) HITEC HS-322HD servos](https://www.amazon.com/Hitec-33322S-HS-322HD-Standard-Karbonite/dp/B0006O3XEA)
